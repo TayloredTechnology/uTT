@@ -10,7 +10,7 @@ steps:
       - '-t'
       - 'gcr.io/$PROJECT_ID/concourse:utt'
       - '-f'
-      - 'Dockerfile-utt'
+      - 'Dockerfile'
       - '.'
     waitFor: ['utt']
 
